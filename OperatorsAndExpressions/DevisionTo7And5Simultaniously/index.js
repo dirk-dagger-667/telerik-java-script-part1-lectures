@@ -1,0 +1,2 @@
+﻿var number = prompt("Enter the number for the check : ", 0);
+console.log(((number % 35 == 0) && (number > 0)) ? "The number IS devisible by 7 and 5 simultaniously" : "The number is NOT devisible by 7 and 5 simultaniously");
